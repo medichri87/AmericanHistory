@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+     <Button
+         android:id="@+id/war1_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War1" 
+         />
+     
+     <Button
+         android:id="@+id/war2_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war1_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War2" 
+         />
+     
+     <Button
+         android:id="@+id/war3_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war2_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War3" 
+         />
+     
+     <Button
+         android:id="@+id/war4_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war3_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War4" 
+         />
+     
+     <Button
+         android:id="@+id/war5_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war4_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War5" 
+         />
+     
+     <Button
+         android:id="@+id/war6_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war5_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War6" 
+         />
+     
+     <Button
+         android:id="@+id/war7_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war6_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War7" 
+         />
+     
+      <Button
+         android:id="@+id/war8_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war7_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War8" 
+         />
+      
+       <Button
+         android:id="@+id/war9_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war8_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War9" 
+         />
+       
+        <Button
+         android:id="@+id/war10_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war9_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War10" 
+         />
+        
+         <Button
+         android:id="@+id/war11_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/war10_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/War11" 
+         />
+
+</RelativeLayout>
+
+</ScrollView>

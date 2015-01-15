@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medina.americanhistory"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+	<uses-permission  android:name="android.permission.INTERNET"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/us_flag"
+        android:label="@string/app_name"
+        android:theme="@style/Action_Bar" 
+        > 
+       
+            <activity
+            android:name=".Splash"
+            android:label="American History" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Menu"
+            android:label="@string/Title" 
+            android:icon="@drawable/us_flag"
+            >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".People"
+            android:label="@string/People" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+                
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Washington"
+            android:label="@string/Washington" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+               
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Jefferson"
+            android:label="@string/Jefferson" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+               <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Edison"
+            android:label="@string/Edison" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".MLK"
+            android:label="@string/MLK" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Ford"
+            android:label="@string/Ford" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Franklin"
+            android:label="@string/Franklin" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Lincoln"
+            android:label="@string/Lincoln" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+               
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Lee"
+            android:label="@string/Lee" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Lindbergh"
+            android:label="@string/Charles" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Armstrong"
+            android:label="@string/Armstrong" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Jackson"
+            android:label="@string/Jackson" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".TR"
+            android:label="@string/TR" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+        <activity
+            android:name=".FDR"
+            android:label="@string/FDR" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Rockefeller"
+            android:label="@string/Rockefeller" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Earhart"
+            android:label="@string/Earhart" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Events"
+            android:label="@string/Events" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".WhiskeyRebellion"
+            android:label="@string/Whiskey" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".ShaysRebellion"
+            android:label="@string/Shays" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".LindberghFlight"
+            android:label="@string/Lindbergh" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".TrailOfTears"
+            android:label="@string/Trail" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".JFK"
+            android:label="@string/JFK" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".LexCon"
+            android:label="@string/LexCon" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".BostonMassacre"
+            android:label="@string/Boston" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".TeaParty"
+            android:label="@string/Tea" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".CivilRights"
+            android:label="@string/Civil" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Apollo11"
+            android:label="@string/Apollo11" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+          
+         <activity
+            android:name=".Wars"
+            android:label="@string/Wars" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".RevolutionaryWar"
+            android:label="@string/War1" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Warof1812"
+            android:label="@string/War2" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".MexicanAmericanWar"
+            android:label="@string/War3" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".CivilWar"
+            android:label="@string/War4" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".SpanishAmericanWar"
+            android:label="@string/War5" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".WorldWar1"
+            android:label="@string/War6" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".WorldWar2"
+            android:label="@string/War7" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".KoreanWar"
+            android:label="@string/War8" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".VietnamWar"
+            android:label="@string/War9" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".GulfWar1"
+            android:label="@string/War10" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".GulfWar2"
+            android:label="@string/War11" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+         <activity
+            android:name=".Documents"
+            android:label="@string/Documents" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Independence"
+            android:label="@string/declaration" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Articles"
+            android:label="@string/articles" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".ReligiousFreedom"
+            android:label="@string/religious" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Emancipation"
+            android:label="@string/emancipation" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Constitution"
+            android:label="@string/constitution" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Timeline"
+            android:label="@string/Timeline" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period1"
+            android:label="@string/period1" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period2"
+            android:label="@string/period2" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period3"
+            android:label="@string/period3" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period4"
+            android:label="@string/period4" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period5"
+            android:label="@string/period5" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Period6"
+            android:label="@string/period6" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".About"
+            android:label="@string/About" >
+            <intent-filter>
+                <action android:name="com.medina.americanhistory.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        
+    </application>
+
+</manifest>

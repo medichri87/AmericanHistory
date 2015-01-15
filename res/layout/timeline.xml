@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button
+         android:id="@+id/period1_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period1" 
+         />
+    
+    <Button
+         android:id="@+id/period2_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/period1_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period2" 
+         />
+    
+    <Button
+         android:id="@+id/period3_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/period2_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period3" 
+         />
+    
+    <Button
+         android:id="@+id/period4_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/period3_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period4" 
+         />
+    
+    <Button
+         android:id="@+id/period5_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/period4_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period5" 
+         />
+    
+    <Button
+         android:id="@+id/period6_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/period5_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/period6" 
+         />
+    
+
+</RelativeLayout>

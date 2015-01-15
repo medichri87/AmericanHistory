@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+     <Button
+         android:id="@+id/WashingtonButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="10dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Washington" 
+         />
+     
+     <Button
+         android:id="@+id/JeffersonButton"
+         android:layout_below="@+id/WashingtonButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Jefferson" 
+         />
+     
+     <Button
+         android:id="@+id/EdisonButton"
+         android:layout_below="@+id/JeffersonButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Edison" 
+         />
+     
+     <Button
+         android:id="@+id/MLKButton"
+         android:layout_below="@+id/EdisonButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/MLK" 
+         />
+     
+     <Button
+         android:id="@+id/FordButton"
+         android:layout_below="@+id/MLKButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Ford" 
+         />
+     
+     <Button
+         android:id="@+id/FranklinButton"
+         android:layout_below="@+id/FordButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Franklin" 
+         />
+     
+     <Button
+         android:id="@+id/LincolnButton"
+         android:layout_below="@+id/FranklinButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Lincoln" 
+         />
+     
+     <Button
+         android:id="@+id/LeeButton"
+         android:layout_below="@+id/LincolnButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Lee" 
+         />
+     
+     <Button
+         android:id="@+id/LindberghButton"
+         android:layout_below="@+id/LeeButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Charles" 
+         />
+     
+     <Button
+         android:id="@+id/ArmstrongButton"
+         android:layout_below="@+id/LindberghButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Armstrong" 
+         />
+     
+     <Button
+         android:id="@+id/JacksonButton"
+         android:layout_below="@+id/ArmstrongButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Jackson" 
+         />
+     
+     <Button
+         android:id="@+id/TRooseveltButton"
+         android:layout_below="@+id/JacksonButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/TR" 
+         />
+     
+     <Button
+         android:id="@+id/FDRButton"
+         android:layout_below="@+id/TRooseveltButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/FDR" 
+         />
+     
+     <Button
+         android:id="@+id/RockefellerButton"
+         android:layout_below="@+id/FDRButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Rockefeller" 
+         />
+     
+     <Button
+         android:id="@+id/EarhartButton"
+         android:layout_below="@+id/RockefellerButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_marginBottom="50dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Earhart" 
+         />
+    
+</RelativeLayout>
+</ScrollView>

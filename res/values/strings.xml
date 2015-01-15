@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">American History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="People">People</string>
+    <string name="Events">Events</string>
+    <string name="Wars">Wars</string>
+    <string name="Documents">Docs</string>
+    <string name="Timeline">Timeline</string>
+    <string name="About">About</string>
+    <string name="Splash">Splash</string>
+    <string name="Menu">Main Menu</string>
+    <string name="Title">American History</string>
+    
+    <string name="Washington">George Washington</string>
+    <string name="Jefferson">Thomas Jefferson</string>
+    <string name="MLK">Martin Luther King, Jr.</string>
+    <string name="Earhart">Emilia Earhart</string>
+    <string name="TR">Teddy Roosevelt</string>
+    <string name="FDR">Franklin Roosevelt</string>
+    <string name="Armstrong">Louis Armstrong</string>
+    <string name="Jackson">Andrew Jackson</string>
+    <string name="Rockefeller">John D. Rockefeller</string>
+    <string name="Franklin">Ben Franklin</string>
+    <string name="Lee">Robert E. Lee</string>
+    <string name="Edison">Thomas Edison</string>
+    <string name="Charles">Charles Lindbergh</string>
+    <string name="Ford">Henry Ford</string>
+    <string name="Lincoln">Abraham Lincoln</string>
+    
+    <string name="Whiskey">Whiskey Rebellion</string>
+    <string name="Shays">Shays Rebellion</string>
+    <string name="JFK">JFK Assassination</string>
+    <string name="Apollo11">Apollo 11</string>
+    <string name="Civil">Civil Rights Era</string>
+    <string name="Trail">Trail of Tears</string>
+    <string name="Tea">Boston Tea Party</string>
+    <string name="Lindbergh">Lindbergh Flight</string>
+    <string name="LexCon">Lexington and Concord</string>
+    <string name="Boston">Boston Massacre</string>
+    
+    <string name="War1">Revolutionary War</string>
+    <string name="War2">War of 1812</string>
+    <string name="War3">Mexican-American War</string>
+    <string name="War4">War Between the States</string>
+    <string name="War5">Spanish-American War</string>
+    <string name="War6">World War I</string>
+    <string name="War7">World War II</string>
+    <string name="War8">Korean War</string>
+    <string name="War9">Vietnam War</string>
+    <string name="War10">Gulf War I</string>
+    <string name="War11">Gulf War II</string>
+    
+    
+    <string name="declaration">Declaration of Independence</string>
+    <string name="religious">Virginia Statute of Religious Freedom</string>
+    <string name="articles">Articles of Confederation</string>
+    <string name="constitution">Constitution of the United States</string>
+    <string name="emancipation">Emancipation Proclamation</string>
+    
+    <string name="period1">1776 to 1800</string>
+    <string name="period2">1800 to 1850</string>
+    <string name="period3">1850 to 1900</string>
+    <string name="period4">1900 to 1950</string>
+    <string name="period5">1950 to 2000</string>
+    <string name="period6">2000 to Current</string>
+    
+    <style name="Button_Style">
+    <item name="android:visibility">visible</item>
+    <item name="android:layout_width">60dp</item>
+    <item name="android:layout_height">25dp</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:clickable">true</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">1dp</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">2</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">3</item>
+	</style>
+	
+	
+    <style name="Action_Bar">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">2</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">2</item>
+	</style>
+    
+    <string name="longString">"I have sworn upon the altar of God eternal hostility to all forms of tyranny over the minds of man."</string>
+    
+    
+    
+    
+    
+  
+
+    
+    
+    
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+     <Button
+         android:id="@+id/whiskeyButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Whiskey" 
+         />
+     
+     <Button
+         android:id="@+id/shaysButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/whiskeyButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Shays" 
+         />
+     
+     <Button
+         android:id="@+id/flightButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/shaysButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Lindbergh" 
+         />
+     
+     <Button
+         android:id="@+id/trailButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/flightButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Trail" 
+         />
+     
+     <Button
+         android:id="@+id/jfkButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/trailButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/JFK" 
+         />
+     
+     <Button
+         android:id="@+id/lexconButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/jfkButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/LexCon" 
+         />
+     
+     <Button
+         android:id="@+id/massacreButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/lexconButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Boston" 
+         />
+     
+     <Button
+         android:id="@+id/teapartyButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/massacreButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Tea" 
+         />
+     
+     <Button
+         android:id="@+id/civilrightsButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/teapartyButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Civil" 
+         />
+     
+     <Button
+         android:id="@+id/apolloButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/civilrightsButton"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/Apollo11" 
+         />
+     
+     
+</RelativeLayout>
+
+</ScrollView>

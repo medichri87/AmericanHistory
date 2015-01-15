@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button
+         android:id="@+id/independence_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="25dp"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/declaration" 
+         />
+    
+    <Button
+         android:id="@+id/religious_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/independence_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/religious" 
+         />
+    
+    <Button
+         android:id="@+id/emancipation_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/religious_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/emancipation" 
+         />
+    
+    <Button
+         android:id="@+id/articles_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/emancipation_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/articles" 
+         />
+    
+    <Button
+         android:id="@+id/constitution_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="50dp"
+         android:layout_marginRight="50dp"
+         android:layout_marginTop="20dp"
+         android:layout_below="@+id/articles_button"
+         android:layout_centerHorizontal="true"
+         android:clickable="true"
+         android:text="@string/constitution" 
+         />
+    
+
+    
+
+</RelativeLayout>

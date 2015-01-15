@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme"
+    android:orientation="vertical"
+	>
+
+    <Button
+        android:id="@+id/documents"
+        style="@style/Button_Style"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/about"
+        android:background="@drawable/black_btn"
+        android:text="@string/Documents" />
+
+    <Button
+        android:id="@+id/wars"
+        style="@style/Button_Style"
+        android:layout_alignBaseline="@+id/documents"
+        android:layout_alignBottom="@+id/documents"
+        android:layout_toLeftOf="@+id/documents"
+        android:background="@drawable/black_btn"
+        android:text="@string/Wars" />
+
+    <Button
+        android:id="@+id/timeline"
+        style="@style/Button_Style"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/documents"
+        android:background="@drawable/black_btn"
+        android:text="@string/Timeline" />
+
+    <Button
+        android:id="@+id/events"
+        style="@style/Button_Style"
+        android:layout_alignBaseline="@+id/wars"
+        android:layout_alignBottom="@+id/wars"
+        android:layout_toLeftOf="@+id/wars"
+        android:background="@drawable/black_btn"
+        android:text="@string/Events" />
+
+    <Button
+        android:id="@+id/people"
+        style="@style/Button_Style"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/events"
+        android:background="@drawable/black_btn"
+        android:text="@string/People" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/Button_Style"
+        android:layout_above="@+id/wars"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/blue_btn"
+        android:text="@string/About" />
+
+</RelativeLayout>
